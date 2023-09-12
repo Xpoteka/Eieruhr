@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: wheat;
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image, .time, .buttonParent {
+    text-align: center;
+    margin: 10px;
+}
+
+image {
+    fill: white;
+}
+
+.time {
+    display: flex;
+}
+
+#button {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 50px;
+    min-width: 100px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgba(255, 221, 0, 0.753);
+    font-weight: 500;
+    color: #222;
+}
